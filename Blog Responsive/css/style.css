@@ -1,0 +1,92 @@
+body {
+	background-color: #FEFFFE;
+}
+header {
+	background-color: #E8CF0E;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+header img {
+	margin-top: 2%;
+	width: 25%;
+}
+
+h2 {
+	color: red;
+	font-family: Bebas Neue;
+	src: url('typo/bebasneue.ttf');
+	font-size: 3em;
+	text-align: center;
+	width: 50%;
+	padding: -0.5%;
+	column-span: all;
+	margin-left: 20%;
+
+}
+
+p {
+	width: 60%;
+	color: black;
+	font-family: Courier new;
+	padding: -0.5%;
+	margin: 0.5%;
+	float: center;
+	margin-bottom: 5%;
+	margin-left: 15%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 1%;
+}
+
+.row: {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+	background-color: black;
+	opacity: 0.75;
+	margin-top: auto;
+	text-indent: 25%;
+
+}
+
+li {
+	display: inline;
+	margin-right: 3%;
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-style: bold;
+
+}
+
+.footer {
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 0.81em;
+	letter-spacing: 1px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: static;
+    padding: 0.5%;
+}
+
+
+
+
+
